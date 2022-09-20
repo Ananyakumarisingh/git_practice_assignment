@@ -1,5 +1,5 @@
 
-function checkPrime(num) {
+function check_Prime(num) {
   if (num <= 1) {
     return false;
   }
@@ -10,4 +10,5 @@ function checkPrime(num) {
   }
   return true;
 }
-console.log(checkPrime(0));
+let n =16;
+console.log(check_Prime(n));
